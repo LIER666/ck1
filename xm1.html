@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>当当网</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    header{
+        height: 40px;
+        border: 1px auto;
+        background: #d0d1cc91;
+    }
+    .div1{
+        font-size: 14px;
+        margin-left: 20px;
+        line-height: 40px;
+        float: left;
+    }
+    .ula{
+        margin-right: 50px;
+        line-height: 40px;
+        float:right;
+    }
+    .ula li{
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+    }
+    .img1{
+        margin-top: 13px;
+        float: left;
+        width: 17px;
+        height: 15px;
+        background:  url(pic/home_sprite.png) no-repeat -40px -86px;
+    }
+    nav{
+        height: 40px;
+        background: #dd531391;
+    }
+    nav li{
+        line-height: 40px;
+        margin-left: 40px;
+        list-style: none;
+        float: left;
+    }
+    .div4{
+        width: 200px;
+        height: 490px;
+        float: left;
+        border: 2px solid rgb(19, 218, 168);
+        margin-top: 10px;
+    }
+    .div4 ul{
+       margin-left: 10px;
+    }
+    .div4 ul li{
+        margin-left: -10px;
+        margin-top: -1.5px;
+        list-style: none;
+        line-height: 35px;
+        border: 1px dotted rgb(19, 218, 168);
+    }
+    .div4 h2:hover{
+        color: red;
+    }
+    .div4 h3:hover{
+        color: red;
+    }
+    .div4 a:hover{
+        color: red;
+    }
+    .div1 a{
+        color: red;
+    }
+          
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    .h2-1{
+        margin-left: -10px;
+        text-align: center;
+        background: #19e295;
+    }
+    .div5{
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section{
+        width: 760px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    section ul li{
+        float: left;
+        margin-left: 50px;
+        list-style: none;
+    }
+    aside{
+        width: 250px;
+        height: 800px;
+        float: right;
+    }
+    .div6{
+        border: 1px solid #1672eb;
+        margin-top: -550px;
+        margin-left: -50px; 
+    }
+    .div7{
+        height: 185px;
+        margin-top: 20px;
+        margin-left: -50px;
+        border: 1px solid  #1672eb;
+    }
+    .img2{
+        float: left;
+    }
+    .p1{
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+        overflow: hidden;
+        float:right;
+    }
+    .a0{
+        font-size: 15px;
+        margin-left: 120px;
+    }
+    .a1
+    {
+        color: brown;
+        font-size: 20px;
+    }
+    .div7-1{
+        height: 160px;
+    }
+     .div71{
+        margin-left: 70px;
+    } 
+    .div71 span{
+        float: left;
+        margin-left: 20px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: #19e295;
+        border-radius: 50%;
+    }
+    .img3{
+        display: block;
+        background: url(pic/sprite.png) ;
+        width: 25px;
+        height: 50px;
+        float: left;
+        line-height:50px;
+    }
+    .p3{
+        margin-top: 10px;
+       margin-left: -70px;
+    }
+    .div8{
+        width: 300px;
+        margin-top: 5px;
+        float: right;
+        height: 400px;
+        border: 1px solid firebrick;
+    }
+    .div8 nav{
+        width: 300px;
+        height: 30px;
+        background: #f1eeeec9;
+    }
+    .div8 nav li{
+        margin-left: 19px;
+        width: 40px;
+        line-height: 30px;
+        border-right: 1px solid #424443;
+        float: left;
+    }
+    .div81{
+        margin-top: 10px;
+    }
+    .div ol{
+        float:right;
+    }
+    .div8 ol li{
+        list-style: none;
+        margin-top: 18px;
+        height: 20px;
+        text-align: center;
+        border-bottom: 1px auto #111111;
+    }
+    .div9{
+        margin-top: 450px;
+        width: 1300px;
+        border-top: 2px solid #111111;
+        height: 200px;
+    }  
+    .div9 ul li
+        {
+        margin-top: 20px;
+        color: brown;
+        float: left;
+        margin-left: 20px;
+        list-style: none;
+    }
+</style>
+</head>
+<body>
+ <main>
+        <header>
+                <div class="div1">欢迎光临当当网!请 <a href="">登录</a> 或者<a href="">注册</a></div>
+                <ul class="ula">
+                    <li><a href=""> <i class="img1"></i> 购物车</a></li>
+                     <li><a href="">我的订单</a></li>
+                     <li><a href="">当当出品</a></li>
+                     <li><a href="">我的当当</a></li>
+                     <li><a href="">当当商城</a></li>
+                     <li><a href="">客服聊天</a></li>
+                     <li><a href="">售后服务</a></li>
+                </ul>
+            </header>
+                  <div class="div2"><img src="pic/logo.jpg" alt=""></div>
+            <nav>
+                 <div class="div3">
+                    <li>全部商品分类</li>
+                    <li>手机</li>
+                    <li>笔记本电脑</li>
+                    <li>运动户外</li>
+                    <li>生活用品</li>
+                    <li>吃喝玩乐</li>
+                    <li>出行</li>
+                    <li>金银珠宝</li>
+                    <li>书籍</li>
+                    <li>鞋包服饰</li>
+                 </div>
+             </nav>
+             <div class="div4">
+                 <ul>
+                     <h2 class="h2-1">图书分类</h2> 
+                     <li><h3><a href="">漫画书 &nbsp; blibli原创</a></h3></li>
+                     <li><h3><a href="">散文</a></h3></li>
+                     <li><h3>潮流</h3><p>文学|传奇|艺术|摄影</p></li>
+                     <li><h3>青春</h3><p>文学|动漫|幽默</p></li>
+                     <li><h3>童书</h3><p>0-2|2-4|4-8|科普百科|科幻</p></li>
+                     <li><h3>励志成功</h3><li>
+                     <li><h3>人文社科</h3><p>历史|古迹|文化|政治|军事|法律|社会科学|心理学</p></li>
+                     <li><h3>工具书</h3></li>
+                 </ul>
+             </div>
+             <div class="div5">
+                 <img src="pic/focus.jpg" alt="">
+             </div>\
+             <div>
+                 <img src="pic/new_book.png" alt="">
+             </div>
+             <section>
+                 <ul>
+                     <li>
+                         <img src="pic/book3.png" alt="">
+                         <p>作品：来得及</p>
+                         <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                     </li>
+                     <li>
+                            <img src="pic/book3.png" alt="">
+                            <p>作品：来得及</p>
+                            <p>作者：何炅</p>
+                    </li>
+                 </ul>
+             </section>
+             <aside>
+                    <div class="div6">
+                     <h3>最新动态</h3>
+                     <p>祝福伊素婉永远那么漂亮，</p>
+                     <p>我把你化成花，你离开的一朵花，把你放在心上</p>
+                     <p>我喜欢你*——*谭松韵！！！！</p>
+                    </div>
+                    <div class="div7">
+                      <div class="div7-1">
+                        <h3>新书预售
+                            <a href="" class="a0">预售更多</a>
+                         </h3>
+                         <img src="pic/book.jpg" alt="" class="img2">
+                         <p class="p1">极地重生沙克尔顿南极 <br> 史诗之旅，探索未知 <br> <a href="" class="a1">$40.0 <br> $60.0</a> </p> 
+                      </div>
+                      <p class="div71">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </p>
+                   </div>
+                    <p class="p3"><i class="img3"></i>新书热卖榜</p>
+                   <div class="div8">
+                       <nav>
+                           <li>总榜</li>
+                           <li>童书</li>
+                           <li>励志</li>
+                           <li>保健</li>
+                           <li>美食</li>
+                       </nav>
+                       <ol>
+                           <div class="div81">
+                                <img src="pic/book.jpg" alt="" class="img2">
+                                <p class="p1">极地重生沙克尔顿南极 <br> 史诗之旅，探索未知 <br> <a href="" class="a1">$40.0 <br> $60.0</a> </p> 
+                                <p>3333条评论</p>
+                          </div>
+                           <li>2奇幻梦境:一本漫游奇境的手绘</li>
+                           <li>3奇幻梦境:一本漫游奇境的手绘</li>
+                           <li>4奇幻梦境:一本漫游奇境的手绘</li>
+                           <li>5奇幻梦境:一本漫游奇境的手绘</li>
+                           <li>6奇幻梦境:一本漫游奇境的手绘</li>
+                           <li>7奇幻梦境:一本漫游奇境的手绘</li>
+                       </ol>
+                   </div> 
+             </aside>
+            
+             <footer class="div9">
+                 <ul>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                     <li>联系我们|</li>
+                 </ul>
+             </footer>
+
+ </main>
+</body>
+</html>
